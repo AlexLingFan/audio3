@@ -1,0 +1,18 @@
+        platform :ios, '10.0'
+
+            use_frameworks!
+
+            inhibit_all_warnings!
+
+            target "Runner" do
+        #下面写入工程所需库
+            pod 'RxCocoa','~> 4’
+            pod 'RxSwift','~> 4’
+
+            #pod 'RxBluetoothKit'
+
+            pod 'SnapKit','~>4.0.1’
+
+     end
+
+
